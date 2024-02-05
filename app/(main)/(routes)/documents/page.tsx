@@ -47,7 +47,7 @@ const DocumentsPage = () => {
                 className='dark:block hidden'
             />
             <h2>
-                Welcome to {user?.firstName}'s Brotion
+                Welcome to {user?.firstName}&apos;s Brotion
             </h2>
             <Button onClick={onCreate}>
                 <PlusCircle className='h-4 w-4 mr-2'/>
