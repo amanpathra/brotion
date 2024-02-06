@@ -68,7 +68,7 @@ export const Publish = ({ initialData }: PublishProps) => {
     return (
         <Popover>
             <PopoverTrigger>
-                <Button>
+                <Button className='bg-secondary text-secondary-foreground hover:bg-secondary/80'>
                     Publish
                     {initialData.isPublished && (
                         <Globe className='text-sky-500 w-4 h-4 ml-2'/>

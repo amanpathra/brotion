@@ -63,14 +63,14 @@ const Title = ({
                     onChange={onChange}
                     onKeyDown={onKeyDown}
                     value={title}
-                    className="h-7 px-2 focus-visible:ring-transparent focus-visible:ring-offset-transparent"
+                    className="h-7 px-0 focus-visible:ring-transparent focus-visible:ring-offset-transparent focus:ring-transparent focus:ring-offset-transparent focus-visible:border-0"
                 />
             ) : (
                 <Button
                     onClick={enableInput}
                     variant="ghost"
                     size='sm'
-                    className="font-normal h-auto p-1"
+                    className="font-normal h-auto py-1 px-0"
                 >
                     <span className="truncate">
                         {initialData.title}

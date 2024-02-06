@@ -21,7 +21,7 @@ const DocumentIdPage = ({
 
     const Editor = useMemo(() => dynamic(() => import("@/components/editor"), { ssr: false }), [])
 
-    const update = useMutation((api.documents.update));
+    const update = useMutation(api.documents.update);
 
     const onChange = (content: string) => {
         update({
